@@ -1,10 +1,9 @@
 import torch
 
-
 from transformers import pipeline
 
 classifier = pipeline("sentiment-analysis")
 
-res = classifier("These are not the droids you've been looking for")
+res = classifier("I'm so happy that spring is going to be here soon")
 
 print(res)
