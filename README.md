@@ -1,11 +1,18 @@
-# NextMachina 
+# NextMachina
+
+## First Steps
+
+pip install transformers datasets
+
+pip install torch
+
 
 ## Steps
 
 First, you'll need to install and import the required libraries:
 
 ```
-!pip install transformers
+pip install transformers
 import torch
 import transformers
 ```
