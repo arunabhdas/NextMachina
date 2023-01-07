@@ -4,6 +4,6 @@ from transformers import pipeline
 
 classifier = pipeline("sentiment-analysis")
 
-res = classifier("I'm so happy that spring is going to be here soon")
+res = classifier("The way to achieve consciousness is through quantum gravity research")
 
 print(res)
